@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Hamburger.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Hamburger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer>
+        <StackPanel>
+            <TextBlock FontSize="70">Leht2</TextBlock>
+            <RichTextBlock>
+                <Paragraph FontSize="90">
+                    Kirurg jättis patsiendile marlitampooni kõhtu, kus see oli seitse aastat. Haigla pidi maksma kahjutasu. Haigla ülemarst lahkus ametist, sest oli avalikult auditooriumi ees mõnitanud nii patsienti kui ka tuhandeid Eesti arste koondavat kutseorganisatsiooni.
+
+Tartu Ülikooli kliinikumi kodulehel on sõnastatud eesmärk: kliinikum on Eesti meditsiini lipulaev. Miks 14 aastat seda lipulaeva kaptenisillalt tüürinud ülemarst, Eesti meditsiini tippjuhtide ladvikusse kuuluv Margus Ulst novembri keskel järsku ametist lahkus, on tänini jäänud selge vastuseta.
+                </Paragraph>
+            </RichTextBlock>
+        </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
